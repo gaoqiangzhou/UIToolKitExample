@@ -1,0 +1,118 @@
+.button-blue {
+    height: 100px;
+    background-color: rgb(98, 149, 242);
+    font-size: 48px;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    transition-timing-function: ease-out-elastic;
+    transition-duration: 0.1s;
+}
+
+.button-blue:hover {
+    scale: 1.1 1.1;
+}
+
+.button-blue:active {
+    background-color: rgb(121, 198, 255);
+}
+
+.text-paragraph {
+    font-size: 41px;
+    white-space: normal;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    -unity-font: url('project://database/Assets/Fonts/SpoqaHanSansNeo-Regular.otf?fileID=12800000&guid=316dec69707b1414d8891259fa6ccadd&type=3#SpoqaHanSansNeo-Regular');
+    -unity-font-definition: initial;
+}
+
+.text-title {
+    font-size: 76px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+    -unity-text-align: upper-center;
+    -unity-font: url('project://database/Assets/Fonts/SpoqaHanSansNeo-Regular.otf?fileID=12800000&guid=316dec69707b1414d8891259fa6ccadd&type=3#SpoqaHanSansNeo-Regular');
+    -unity-font-definition: initial;
+    -unity-font-style: bold;
+}
+
+.bottomSheet_down {
+    flex-grow: 1;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    align-items: center;
+    translate: 0 100%;
+    transition-timing-function: ease-in-out-bounce;
+    transition-duration: 1s;
+}
+
+.buttomSheet_up {
+    translate: 0 0;
+}
+
+.scrim {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.84);
+    transition-duration: 0.25s;
+}
+
+.scrim-fadeIn {
+    opacity: 1;
+}
+
+.image-boy {
+    background-image: url('project://database/Assets/UI%20Toolkit/Images/boy.png?fileID=2800000&guid=9218415b7579bf24096cd40e2d06ea7c&type=3#boy');
+    width: 300px;
+    height: 600px;
+    transition-duration: 2s;
+    transition-timing-function: ease-out-cubic;
+}
+
+.image-boy-float {
+    translate: -500px -400px;
+}
+
+.girl {
+    flex-grow: 0;
+    background-image: url('project://database/Assets/UI%20Toolkit/Images/Girl.png?fileID=2800000&guid=6596da639eadc2f4884b5725e7420899&type=3#Girl');
+    width: 300px;
+    height: 350px;
+    flex-direction: column-reverse;
+    transition-duration: 1s;
+}
+
+.girl-down {
+    translate: 0 60px;
+}
